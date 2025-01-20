@@ -42,7 +42,7 @@ const NavBar = () => {
       {/* Navigation Links for Desktop */}
       <div className="hidden space-x-6 text-gray-700 md:flex">
         <Link
-          to="/projects"
+          to="/Projects"
           className="flex items-center space-x-2 hover:text-gray-900"
         >
           <FaClipboardList />
@@ -56,7 +56,7 @@ const NavBar = () => {
           <span>Task</span>
         </Link>
         <Link
-          to="/team"
+          to="/TeamPage"
           className="flex items-center space-x-2 hover:text-gray-900"
         >
           <FaUsers />
