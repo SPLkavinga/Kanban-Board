@@ -49,7 +49,7 @@ const NavBar = () => {
           <span>Project</span>
         </Link>
         <Link
-          to="/tasks"
+          to="/Task"
           className="flex items-center space-x-2 hover:text-gray-900"
         >
           <FaTasks />
